@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  height: 100vh;
+  background-color: black;
+}
+
+body #root{
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
